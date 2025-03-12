@@ -2,14 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebas
 import { getDatabase, update, ref, set, get } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD0HvCHtieryXo82yi1XkFJJBLT_ej4z8o",
-    authDomain: "controle-de-ferramentas-c0eeb.firebaseapp.com",
-    databaseURL: "https://controle-de-ferramentas-c0eeb-default-rtdb.firebaseio.com",
-    projectId: "controle-de-ferramentas-c0eeb",
-    storageBucket: "controle-de-ferramentas-c0eeb.firebasestorage.app",
-    messagingSenderId: "869101302012",
-    appId: "1:869101302012:web:2df2fa9dcc90f292b6a779",
-    measurementId: "G-VLSJRBH8LN"
+    
 };
 
 const app = initializeApp(firebaseConfig);
