@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Controle de Ferramentas</title>
+</head>
+
+<body>
+    <h1 class="titulo">CONTROLE DE RETIRADA E DEVOLUÇÃO DE FERRAMENTAS</h1>
+    <form id="form">
+        <div class="questao">
+            <label>Nome do aluno:</label><br>
+            <input type="text" id="nomeAluno" pattern="[A-Za-zÀ-ÿ ]+" title="Por favor, insira apenas letras e espaços">
+        </div>
+        <div class="questao">
+            <label>Nome do professor:</label>
+            <input type="text" id="nomeProfessor" pattern="[A-Za-zÀ-ÿ ]+" title="Por favor, insira apenas letras e espaços">
+        </div>
+        <div class="questao">
+            <label>Ferramenta retirada:</label>
+            <input type="text" id="ferramenta" pattern="[A-Za-zÀ-ÿ ]+" title="Por favor, insira apenas letras e espaços">
+        </div>
+        <div class="questao">
+            <label>Quantidade de ferramentas:</label>
+            <input type="number" id="quantidadeFerramenta" min="1">
+        </div>
+        <button class="registrar" type="submit">Registrar Coleta</button>
+    </form>
+    <h3 id="msg-registro"></h3>
+    <h1>Ferramentas ainda não devolvidas</h1>
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Aluno</th>
+                <th>Professor</th>
+                <th>Ferramenta</th>
+                <th>Quantidade</th>
+                <th>Devolvido</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
