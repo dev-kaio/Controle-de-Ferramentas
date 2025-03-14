@@ -1,7 +1,7 @@
 const cache = "controle-ferramentas-cache";
 const assets = [
     "/",
-    "ControleDeFerramentas/index.html",
+    "aiklica.github.io/Controle-de-Ferramentas",
     "style.css",
     "icon1.png",
     "icon2.png"
