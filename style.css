@@ -18,7 +18,7 @@ body {
 
 .titulo {
     text-align: center;
-    margin-top: 4%;
+    margin-top: 20%;
     color: white;
 }
 
@@ -125,17 +125,126 @@ tr:hover {
     background-color: rgba(60, 61, 60, 0.4);
 }
 
-@media screen and (max-width: 1200px) {
-    .questao{
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+    .questao {
         display: block;
         text-align: center;
     }
-    #quantidadeFerramenta{
+
+    #quantidadeFerramenta {
         width: 30vw;
     }
-    .registrar{
+
+    .registrar {
         margin-top: 5%;
         margin-bottom: 2%;
         width: 30vw;
+    }
+
+    .titulo {
+        margin-top: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    .titulo {
+        margin-top: 100%;
+    }
+
+    .questao {
+        display: block;
+        text-align: center;
+    }
+
+    #quantidadeFerramenta {
+        width: 30vw;
+    }
+
+    .registrar {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 650px) {
+    .titulo {
+        margin-top: 80%;
+    }
+
+    .questao {
+        display: block;
+        text-align: center;
+    }
+
+    #quantidadeFerramenta {
+        width: 30vw;
+    }
+
+    .registrar {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        width: 30vw;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+
+    table {
+        width: 40%;
+        font-size: 1rem;
+        overflow-x: auto;
+    }
+
+    th {
+        font-size: 1rem;
+    }
+
+    th,
+    td {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 650px)  {
+    .titulo {
+        margin-top: 80%;
+    }
+
+    .questao {
+        display: block;
+        text-align: center;
+    }
+
+    #quantidadeFerramenta {
+        width: 30vw;
+    }
+
+    .registrar {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        width: 30vw;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 0.6rem;
+    }
+
+    table {
+        width: 40%;
+        font-size: 0.75rem;
+        overflow-x: auto;
+    }
+
+    th {
+        font-size: 0.75rem;
+    }
+
+    th,
+    td {
+        padding: 5px;
     }
 }
