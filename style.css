@@ -126,6 +126,26 @@ tr:hover {
     background-color: rgba(60, 61, 60, 0.4);
 }
 
+@media screen and (max-width: 1300px) and (min-width: 1200px) {
+    form{
+        width: 40%;
+    }
+    .questao {
+        display: block;
+        text-align: center;
+    }
+
+    #quantidadeFerramenta {
+        width: 30vw;
+    }
+
+    .registrar {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        width: 30vw;
+    }
+}
+
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
     .questao {
         display: block;
@@ -209,7 +229,7 @@ tr:hover {
     }
 }
 
-@media screen and (max-width: 650px)  {
+@media screen and (max-width: 650px) {
     .titulo {
         margin-top: 80%;
     }
