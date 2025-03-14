@@ -18,7 +18,7 @@ body {
 
 .titulo {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 15%;
     color: white;
 }
 
@@ -142,7 +142,7 @@ tr:hover {
     }
 
     .titulo {
-        margin-top: 80%;
+        margin-top: 60%;
     }
 }
 
